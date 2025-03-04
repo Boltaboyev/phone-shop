@@ -10,6 +10,7 @@ import uzb from "../../assets/img/flag.png"
 import {IoStar, IoStarHalf, IoStarOutline} from "react-icons/io5"
 import {MdAddShoppingCart} from "react-icons/md"
 import {FaChevronLeft} from "react-icons/fa6"
+import PhoneInfo from "../../components/phone-info"
 
 const ProductDetail = () => {
     const {id} = useParams()
@@ -160,6 +161,8 @@ const ProductDetail = () => {
                             </div>
                         </div>
                     </div>
+
+                    <PhoneInfo />
                 </div>
             </section>
         </>
